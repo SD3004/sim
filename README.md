@@ -1,3 +1,5 @@
-# SIM
+# SIM: Surface-based fMRI Analysis for Inter-Subject Multimodal Decoding from Movie-Watching Experiments
 
-This repo contains the code for SIM. 
+This repo will contain the code for **SIM**
+
+Soon to be released. 
