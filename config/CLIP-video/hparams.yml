@@ -16,7 +16,7 @@ mesh_resolution:
   reorder: False #reorder the sequence of patches ##
 
 data:
-  path_to_data: /drive/data
+  path_to_data: /drive/data #TO ADAPT
   path_to_template: ../data/templates
   path_to_workdir: ..
   dataset: HCP  #dHCP, HCP, UKB
