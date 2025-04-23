@@ -1,0 +1,23 @@
+# @Author: Simon Dahan @SD3004
+# @Date:   31-08-2022 01:00:00
+
+path_to_ckpt: ''
+gpu: 0
+nbr_clip_to_test: 100
+nbr_stimuli_to_sample_per_test: 32
+sampling_strategy: 'inter_movie_sample' #inter_movie_sample, intra_movie_sample
+sampling_type: random  #random, uniform
+single_subject: False
+subject_id: 14
+movie_sampling_strategy: half #any, half
+train_val_split: split5 #split4, split1,split5
+split_to_test: val #val, train, train-for-val
+display: False
+topk: 10
+topkdisplay: 10
+stimulus: video #audio, video
+model: CLIP-fmri-video-audio #CLIP-video, CLIP-audio, CLIP-fmri-video-audio
+filter: False #False, hemi:L, hemi:L,sex:0 
+exclude_positive_rest_from_eval: True
+exclude_negative_rest_from_eval: True
+fmri_encoder: 'sit' #mlp, sit
